@@ -1,0 +1,219 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME PAGE</title>
+    <link rel="stylesheet" href="skincareup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Koulen&family=Lobster&family=Pacifico&display=swap" rel="stylesheet">
+    <script src="/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <div class="nav">
+            <div class="logo">
+                <h3>SKINCARE</h3>   
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="skincareup..html">HOME</a></i></li>
+                    <li><a href="skin_product.html">SHOP</a></li>
+                    <li><a href="contact2.html">CONTACT Us</a></li>
+                    <li><a href="bestsell.html">BESTSELL</a></li>
+                    <li><a href="#">BESTOFFER</a></li>
+                    <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                    <li><a href="Login_drft.html"><i class="fa-solid fa-user"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- slide -->
+    <!-- <div class="swap" style="width: 100%; height: 700px; background-color: black;"> -->
+        <!-- <img src="/Image/welcome.jpg" alt=""> -->
+        <img src="/Image/springbannerfix-removebg.png" alt="">
+        
+    </div><br>
+    <!-- Body -->
+    <div class="upper-body">
+        <!-- <div class="banner">
+            
+        </div><br> -->
+        <div class="text">
+            <h2>Highlighted Products</h2>
+            <p>Here’s some of our most popular products people are in love with.</p>
+        </div>
+    </div>
+    
+    <div class="wrapper">
+        <div class="image">
+            <img src="https://w4s5h3f6.rocketcdn.me/amina/wp-content/uploads/2021/07/nd-face-cream-gallery-image-1.jpg" alt="">
+            <div class="content">
+                <h2><a href="swap-1-hightlight.html"><i class="fa-solid fa-eye" style="color: #a1a1a1;"></i></a> &nbsp; <i class="fa-regular fa-heart" style="color: #a1a1a1;"></i></h2>
+            </div><br><br>
+                <h5 class=" text-dark" class="card-title" style="padding-left: 140px;">N&D Face Cream</h5>
+                <p class=" text-dark" class="text-center" class="card-text" style="padding-left: 170px;"> $47.00 $37.00</p>
+                <button style="margin-left: 115px; width: 200px; height: 40px; background-color: black; color: white;" >ADD TO CART</button>
+        </div>
+        <div class="image">
+            <img src="https://w4s5h3f6.rocketcdn.me/amina/wp-content/uploads/2021/07/face-deep-cleanser-image-1-scaled.jpg" alt="">
+            <div class="content">
+                <h2><a href="swap-2-hightlight.html"><i class="fa-solid fa-eye" style="color: #a1a1a1;"></i></a> &nbsp; <i class="fa-regular fa-heart" style="color: #a1a1a1;"></i></h2>
+            </div><br><br>
+                <h5 class=" text-dark" class="card-title" style="padding-left: 140px;">Face Deep Cleanser</h5>
+                <p class=" text-dark" class="text-center" class="card-text" style="padding-left: 170px;"> $48.00 $38.00</p>
+                <button style="margin-left: 115px; width: 200px; height: 40px; background-color: black; color: white;" >ADD TO CART </button>
+        </div>
+        <div class="image">
+            <img src="https://w4s5h3f6.rocketcdn.me/amina/wp-content/uploads/2021/07/camomile-hand-cream-image-1.jpg" alt="">
+            <div class="content">
+                <h2><a href="swap-3.html"><i class="fa-solid fa-eye" style="color: #a1a1a1;"></i></a> &nbsp; <i class="fa-regular fa-heart" style="color: #a1a1a1;"></i></h2>
+            </div><br><br>
+                <h5 class=" text-dark" class="card-title" style="padding-left: 140px;">Camomile Hand Cream</h5>
+                <p class=" text-dark" class="text-center" class="card-text" style="padding-left: 170px;"> $22.00</p>
+                <button style="margin-left: 115px; width: 200px; height: 40px; background-color: black; color: white;" >ADD TO CART </button>
+        </div>
+        <div class="image">
+            <img src="https://w4s5h3f6.rocketcdn.me/amina/wp-content/uploads/2021/07/full-coverage-foundation-image-1.jpg" alt="">
+            <div class="content">
+                <h2><a href="swap-4.html"><i class="fa-solid fa-eye" style="color: #a1a1a1;"></i></a> &nbsp; <i class="fa-regular fa-heart" style="color: #a1a1a1;"></i></h2>
+            </div><br><br>
+                <h5 class=" text-dark" class="card-title" style="padding-left: 140px;">Full Coverage Foundation</h5>
+                <p class=" text-dark" class="text-center" class="card-text" style="padding-left: 170px;"> $26.00</p>
+                <button style="margin-left: 115px; width: 200px; height: 40px; background-color: black; color: white;" >ADD TO CART </button>
+        </div>
+    </div>
+    <!-- product -->
+    <!-- <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <div class="card">
+                    <img src="/Image/sk.jpg" alt="">
+                    <h4 class="text-center">Skincare</h4>
+                    <p class="text-center">$50.00</p>
+                </div><br>
+                <button style="height: 50px; width: 300px; background-color: black; color: white;" >ADD TO CART</button>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <img src="/Image/sk.jpg" alt="">
+                    <h4 class="text-center">Skincare</h4>
+                    <p class="text-center">$50.00</p>
+                    <button style="height: 50px;  margin: auto; background-color: black; color: white;">ADD TO CART</button>
+                    <br>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <img src="/Image/sk.jpg" alt="">
+                    <h4 class="text-center">Skincare</h4>
+                    <p class="text-center">$50.00</p>
+                    <button style="height: 50px; width: 300px; background-color: black; color: white; margin: auto;" >ADD TO CART</button>
+                    <br>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <img src="/Image/sk.jpg" alt="">
+                    <h4 class="text-center">Skincare</h4>
+                    <p class="text-center">$50.00</p>
+                </div><br>
+                <button style="height: 50px; width: 300px; background-color: black; color: white;" >ADD TO CART</button>
+            </div>              
+            </div> -->
+
+            <!-- new -->
+            <!-- <img class="banner1" src="/Image/banner6.webp" alt=""> -->
+
+            <!-- <img style="width: 1800px; height: 650px;" src="/Image/banner4.jpg" alt=""> -->
+            <div style=" padding-left: 50px;" class="sell">
+                <!-- <img style="width: 1600px; height: 650px;" src="/Image/5691822.jpg" alt=""> -->
+                <!-- <img style="width: 1600px; height: 650px;" src="/Image/8084908-removebg-preview.png" alt=""> -->
+                <img style="width: 1700px;" src="/Image/sale-g0852adecd_1920.jpg" alt="">
+            </div><br><br>
+            <!-- <div class="swap" style="width: 100%; height: 700px; background-color: black;"></div> -->
+            <div class="box">
+                <!-- <h2>Latest News</h2><br> -->
+                <a href=""><img class="fit" src="/Image/new2.jpg" alt=""></a>
+                <a href=""><img class="fit" src="/Image/new1.jpg" alt=""></a>
+            </div>
+<!--  -->
+            <div class="wrapper">
+                <div class="image">
+                    <img src="https://neuronthemes.com/amina/wp-content/uploads/2021/07/green-face-toner-image-1.jpg" alt="">
+                    <div class="content">
+                        <h2><a href="swap-1-hightlight.html"><i class="fa-solid fa-eye" style="color: #a1a1a1;"></i></a> &nbsp; <i class="fa-regular fa-heart" style="color: #a1a1a1;"></i></h2>
+                    </div><br><br>
+                        <h5 class=" text-dark" class="card-title" style="padding-left: 140px;">Green Face Toner</h5>
+                        <p class=" text-dark" class="text-center" class="card-text" style="padding-left: 170px;"> $47.00 $37.00</p>
+                        <button style="margin-left: 115px; width: 200px; height: 40px; background-color: black; color: white;" >ADD TO CART</button>
+                </div>
+                <div class="image">
+                    <img src="https://neuronthemes.com/amina/wp-content/uploads/2021/07/volume-mascara-image-1.jpg" alt="">
+                    <div class="content">
+                        <h2><a href="swap-2-hightlight.html"><i class="fa-solid fa-eye" style="color: #a1a1a1;"></i></a> &nbsp; <i class="fa-regular fa-heart" style="color: #a1a1a1;"></i></h2>
+                    </div><br><br>
+                        <h5 class=" text-dark" class="card-title" style="padding-left: 140px;">Volume Mascara</h5>
+                        <p class=" text-dark" class="text-center" class="card-text" style="padding-left: 170px;"> $48.00 $38.00</p>
+                        <button style="margin-left: 115px; width: 200px; height: 40px; background-color: black; color: white;" >ADD TO CART </button>
+                </div>
+                <div class="image">
+                    <img src="https://neuronthemes.com/amina/wp-content/uploads/2021/07/sensitive-skin-cream-image-1.jpg" alt="">
+                    <div class="content">
+                        <h2><a href="swap-3.html"><i class="fa-solid fa-eye" style="color: #a1a1a1;"></i></a> &nbsp; <i class="fa-regular fa-heart" style="color: #a1a1a1;"></i></h2>
+                    </div><br><br>
+                        <h5 class=" text-dark" class="card-title" style="padding-left: 140px;">Sensitive Skin Cream</h5>
+                        <p class=" text-dark" class="text-center" class="card-text" style="padding-left: 170px;"> $20.00</p>
+                        <button style="margin-left: 115px; width: 200px; height: 40px; background-color: black; color: white;" >ADD TO CART </button>
+                </div>
+                <div class="image">
+                    <img src="https://neuronthemes.com/amina/wp-content/uploads/2021/07/face-powder-galley-image-1-scaled.jpg" alt="">
+                    <div class="content">
+                        <h2><a href="swap-product.html"><i class="fa-solid fa-eye" style="color: #a1a1a1;"></i></a> &nbsp; <i class="fa-regular fa-heart" style="color: #a1a1a1;"></i></h2>
+                    </div><br><br>
+                        <h5 class=" text-dark" class="card-title" style="padding-left: 140px;">Face Powder</h5>
+                        <p class=" text-dark" class="text-center" class="card-text" style="padding-left: 170px;"> $17.00</p>
+                        <button style="margin-left: 115px; width: 200px; height: 40px; background-color: black; color: white;" >ADD TO CART </button>
+                </div>
+            </div>
+           
+            
+        </div>
+    </div>
+    <br>
+    <!--  footer -->
+    <div class="footer">
+        <div class="footer1">
+            <div class="footer-left">
+                <h3 style="text-align: center;">Social Media</h3>
+                <div class="footer-icon">
+                    <a href="https://www.facebook.com/jin.hay.5"><i class="fa-brands fa-facebook"></i></a> &nbsp; <a href="#"><i class="fa-brands fa-twitter"></i></a> &nbsp; <a href="#"><i class="fa-brands fa-instagram"></i></a> &nbsp; <a href="#"><i class="fa-brands fa-tiktok"></i></a> 
+                </div> 
+                
+            </div>
+            <div class="footer-mid">
+                <h3 style="text-align: center;">Links</h3>
+              <ul>
+                    <li><a href="skincareup..html">HOME</a></i></li>
+                    <li><a href="skin_product.html">SHOP</a></li>
+                    <li><a href="contact2.html">CONTACT Us</a></li>
+                    <li><a href="#">BESTSELL</a></li>
+                    <li><a href="#">BESTOFFER</a></li>
+              </ul>
+            </div>
+            <div class="footer-right">
+                <h3 style="text-align: center;">Contact Us</h3>             
+                <ul>
+                  <li><i class="fas fa-map-marker-alt"></i> 123 Main St, Anytown, USA</li>
+                  <li><i class="fas fa-phone"></i> 555-555-5555</li>
+                  <li><i class="fas fa-envelope"></i> info@example.com</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
