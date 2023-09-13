@@ -1,0 +1,264 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swap Product</title>
+    <script src="/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <style>  
+header{
+    width: 100%;
+    height: 110px;
+    /* background-color: black; */
+}
+.nav{
+    width: 100%;
+    height: 110px;
+    /* background-color: rgb(114, 99, 99); */
+    background-color: FFEAEA;
+    display: flex;
+}
+.logo{
+    width: 50%;
+    height: 110px;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+.menu{
+    width: 50%;
+    height: 110px;
+    display: flex;
+    /* padding-right: 55px; */
+    /* padding-left: 30px; */
+    padding-top: 40px;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.menu ul li{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+.menu ul li a:hover{
+    color: rgb(0, 183, 255);
+}
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .image{
+            width: 50%;
+            height: 700px;
+            /* background-color: black; */
+            margin: auto;
+            margin-top: 100px;
+        }
+        .zoom img{
+            width: 420px;
+            height: 450px;
+            float: left;
+            margin: auto;
+            
+        }
+        /* .zoom h1{
+            padding-left: 20px;
+            margin-left: 30px;
+        } */
+        .img-toch{
+            width: 100%;
+            height: 500px;
+            display: flex;
+            justify-content: space-between;
+            /* background-color: teal; */
+        }
+        .img-toch ul{
+            display: flex;
+            justify-content: space-evenly;
+            list-style-type: none;
+            /* padding-left: 10px; */
+            /* padding: 20px; */
+            padding-top: 20px;
+        }
+        .img-toch img {
+            width: 100px;
+            height: 120px;
+            
+        }
+        .footer{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    display: flex;
+}
+.footer1{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    
+    /* color: white;
+    padding-top: 100px; */
+}
+/* .footer1 i{
+    color: white;
+} */
+.footer-left{
+    width: 35%;
+    height: 300px;
+    /* background-color: slateblue; */
+}
+.footer-left{
+    padding-top: 100px;
+    color: white;
+}
+.footer-left i{
+    background-color: rgb(56, 46, 46);
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    padding-top: 5px;
+    color: white;
+}
+.footer-icon{
+    margin: auto;
+    text-align: center;
+}
+.footer-icon i:hover{
+    color: red;
+}
+.footer-mid{
+    width: 30%;
+    height: 300px;
+    color: white;
+    padding-top: 100px;
+    padding-right: 20px;
+    line-height: 20px;
+    /* background-color: salmon; */
+}
+.footer-mid ul li a{
+    color: white;
+    /* list-style-type: none; */
+}
+.footer-mid ul li {
+    list-style-type: none;
+    /* text-decoration: none; */
+    /* padding-right: 40px; */
+}
+.footer-mid ul li a{
+    text-decoration: none;
+}
+.footer-mid ul li a:hover{
+    color: red;
+}
+.footer-mid ul{
+    padding-left: 255px;
+}
+.footer-right{
+    width: 35%;
+    height: 300px;
+    padding-top: 100px;
+    color: white;
+    line-height: 30px;
+    padding-right: 40px
+    
+    /* background-color: saddlebrown; */
+}
+.footer-right ul li{
+    color: white;
+    list-style-type: none;
+}
+.footer-right ul{
+    padding-left: 270px;
+}
+    </style>
+</head>
+<body style="background-color: E4D0D0;">
+    <header>
+        <div class="nav">
+            <div class="logo">
+                <h3>SKINCARE</h3>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="skincareup..html">HOME</a></i></li>
+                    <li><a href="skin_product.html">SHOP</a></li>
+                    <li><a href="#">PAGE</a></li>
+                    <li><a href="#">BESTSELL</a></li>
+                    <li><a href="#">BESTOFFER</a></li>
+                    <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-user"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="image">
+        <div class="zoom"><img src="https://neuronthemes.com/amina/wp-content/uploads/2021/07/camomile-hand-cream-image-1.jpg" alt="">
+        <h1 style="padding-left: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;Product Name</h1><br>
+        <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PRICE &nbsp;&nbsp;&nbsp;$20.00</h4><br>
+        <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RETAIL &nbsp;&nbsp;&nbsp; 0.00</h4><br>
+        <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ABOUT</h4><br>
+        <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BRAND &nbsp;: Lorem</h4><br>
+        <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CODE &nbsp;&nbsp;&nbsp;: Lorem</h4><br>
+        <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Weighgt : Lorem</h4><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;<button style="width: 200px; height: 35px; background-color: black; color: white;">ADD TO CART</button>
+        
+        </div>
+        <div class="img-toch">
+            <ul class="bosul">
+                <li><a href="https://neuronthemes.com/amina/wp-content/uploads/2021/07/camomile-hand-cream-image-1.jpg" target="zoom"><img src="https://neuronthemes.com/amina/wp-content/uploads/2021/07/camomile-hand-cream-image-1.jpg" alt=""></a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+                <li><a href="https://neuronthemes.com/amina/wp-content/uploads/2021/07/camomile-hand-cream-image-2.jpg" target="zoom"><img src="https://neuronthemes.com/amina/wp-content/uploads/2021/07/camomile-hand-cream-image-2.jpg" alt=""></a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+                <!-- <li><a href="/Image/sk1.jpg" target="zoom"><img src="/Image/sk1.jpg" alt=""></a></li>&nbsp;&nbsp;&nbsp;&nbsp; -->
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer1">
+            <div class="footer-left">
+                <h3 style="text-align: center;">Social Media</h3>
+                <div class="footer-icon">
+                    <a href="https://www.facebook.com/jin.hay.5"><i class="fa-brands fa-facebook"></i></a> &nbsp; <a href="#"><i class="fa-brands fa-twitter"></i></a> &nbsp; <a href="#"><i class="fa-brands fa-instagram"></i></a> &nbsp; <a href="#"><i class="fa-brands fa-tiktok"></i></a> 
+                </div> 
+                
+            </div>
+            <div class="footer-mid">
+                <h3 style="text-align: center;">Links</h3>
+              <ul>
+                <li><a href="skincareup..html">HOME</a></i></li>
+                    <li><a href="skin_product.html">SHOP</a></li>
+                    <li><a href="#">PAGE</a></li>
+                    <li><a href="#">BESTSELL</a></li>
+                    <li><a href="#">BESTOFFER</a></li>
+              </ul>
+            </div>
+            <div class="footer-right">
+                <h3 style="text-align: center;">Contact Us</h3>
+                <ul>
+                  <li><i class="fas fa-map-marker-alt"></i> 123 Main St, Anytown, USA</li>
+                  <li><i class="fas fa-phone"></i> 555-555-5555</li>
+                  <li><i class="fas fa-envelope"></i> info@example.com</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    $(document).ready(function(){
+        $('.bosul a').hover(function(e){
+            e.preventDefault();
+            $('.zoom img').attr("src",$(this).attr("href"));
+        })
+    })
+</script>
+</html>
